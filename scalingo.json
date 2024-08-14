@@ -2,6 +2,41 @@
   "name": "Sample Python Flask",
   "description": "Sample Python web application using the Flask framework",
   "logo": "https://scalingo.com/logo.svg",
+  "addons": ["scalingo-postgresql"],
+  "keywords": ["website","app"]
   "repository": "https://github.com/xxe9/sample-python-flask",
-  "website": "https://sample-python-flask.scalingo.io"
+  "website": "https://sample-python-flask.scalingo.io",
+  "stack": "container"
+  "env": {
+        "STRING_SESSION": {
+            "description": "كـــود جلســة تيــرمكــس - الكـود الكبيـر مـن حـافظـة حسـابـك او مـن بــوت〔 RepthonStringSessionBot@ 〕..",
+            "required": true
+        },
+        "APP_TOKEN": {
+            "description": "تـــوكـــن البـــوت المســاعـد الخــاص بـك - مـن بـوت فـاذر〔 Botfather@ 〕..",
+            "required": true,
+            "value":""
+        },
+        "APP_ID": {
+            "description": "كـود ايبي ايـدي〔 App id 〕اتركـه كمـا هــو",
+            "required": true,
+            "value":"13740761"
+        },
+        "API_HASH": {
+            "description": "كـود ايبي هـاش〔 Api Hash 〕اتركـه كمـا هــو",
+            "required": true,
+            "value":"4ce319a92c01fab2b02551af8d7f73a4"
+        },
+        "TZ": {
+            "description": "المنطقـــه الزمنيـــه لا تغيــرهـــا",
+            "required": true,
+            "value": "Asia/Baghdad"
+        },
+        "ENV": {
+            "description": "لا تغيــرهـــا",
+            "required": true,
+            "value": "ANYTHING"
+        }
+
+    }
 }
