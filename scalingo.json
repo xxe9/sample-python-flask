@@ -2,6 +2,6 @@
   "name": "Sample Python Flask",
   "description": "Sample Python web application using the Flask framework",
   "logo": "https://scalingo.com/logo.svg",
-  "repository": "https://github.com/Scalingo/sample-python-flask",
+  "repository": "https://github.com/xxe9/sample-python-flask",
   "website": "https://sample-python-flask.scalingo.io"
 }
