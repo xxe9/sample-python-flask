@@ -6,7 +6,7 @@
   "keywords": ["website","app"],
   "repository": "https://github.com/xxe9/sample-python-flask",
   "website": "https://sample-python-flask.scalingo.io",
-  "stack": "container"
+  "stack": "container",
   "env": {
         "STRING_SESSION": {
             "description": "كـــود جلســة تيــرمكــس - الكـود الكبيـر مـن حـافظـة حسـابـك او مـن بــوت〔 RepthonStringSessionBot@ 〕..",
