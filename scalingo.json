@@ -3,7 +3,7 @@
   "description": "Sample Python web application using the Flask framework",
   "logo": "https://scalingo.com/logo.svg",
   "addons": ["scalingo-postgresql"],
-  "keywords": ["website","app"]
+  "keywords": ["website","app"],
   "repository": "https://github.com/xxe9/sample-python-flask",
   "website": "https://sample-python-flask.scalingo.io",
   "stack": "container"
